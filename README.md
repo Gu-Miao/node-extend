@@ -22,11 +22,11 @@ npm install extend
 
 ## 用法
 
-**语法:** extend **(** [`deep`], `target`, `object1`, [`objectN`] **)**
+**语法：** extend **(** [`deep`], `target`, `object1`, [`objectN`] **)**
 
 *用一个或多个对象扩展一个对象，返回修改过的对象。*
 
-**例子:**
+**例子：**
 
 ``` js
 var extend = require('extend');
@@ -41,24 +41,24 @@ extend(targetObject, object1, object2);
 
 ### Arguments
 
-* `deep` *Boolean* (optional)
-If set, the merge becomes recursive (i.e. deep copy).
-* `target`	*Object*
-The object to extend.
-* `object1`	*Object*
-The object that will be merged into the first.
-* `objectN` *Object* (Optional)
-More objects to merge into the first.
+* `deep` *布尔类型* 
+（可选参数）设置函数是否为深拷贝
+* `target`	*对象类型*
+要扩展的对象
+* `object1`	*对象类型*
+该对象会被合并到第一个对象中
+* `objectN` *对象类型* 
+（可选参数）这些对象会被合并到第一个对象中
 
-## License
+## 许可证
 
-`node-extend` is licensed under the [MIT License][mit-license-url].
+`node-extend` 使用的是 [MIT License][mit-license-url] 许可证。
 
-## Acknowledgements
+## 致谢
 
-All credit to the jQuery authors for perfecting this amazing utility.
+所有这些都归功于 jQuery 作者完善了这个惊人的实用程序。
 
-Ported to Node.js by [Stefan Thomas][github-justmoon] with contributions by [Jonathan Buchanan][github-insin] and [Jordan Harband][github-ljharb].
+感谢 [Jonathan Buchanan][github-insin]，[Jordan Harband][github-ljharb] 和 [Stefan Thomas][github-justmoon] 将我的程序移植到 Node.js。
 
 [travis-svg]: https://travis-ci.org/justmoon/node-extend.svg
 [travis-url]: https://travis-ci.org/justmoon/node-extend
