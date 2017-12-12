@@ -83,9 +83,15 @@ extend(targetObject, object1, object2);
 ```  
 3.代码程序用到的外部库
 ```
-    tape.js
-    mocha
-    jscs.js
-    covert.js
-    eslint
+    tape.js       结合 mocha 使用的测试模块
+    mocha         自动化测试框架
+    eslint        JS代码风格检测工具
+    travi CI      持续集成
+```  
+4.代码程序的改进
+```
+    1.extend() 方法会覆盖同名属性，在这一点上应该让使用者去选择
+    2.extend() 方法对于 String 类型的被操作对象会将它转化为数组，例如： "hello" => ["h","e","l","l","o"] 但是这样的
+存储方式显然不方便使用者来操作，或许我们可以将它改变为 "hello" => ["hello"]
+    3.在第二条的基础上我们可以考虑拓宽目标对象的可选范围,比如 String, JSON, Symbol 等
 ```
