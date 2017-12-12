@@ -51,7 +51,7 @@ extend(targetObject, object1, object2);
 ### extend()
 主体函数部分，对对象的属性进行复制，然后通过对象操作将属性赋给目标对象，如果被操作对象存在对象嵌套或者是多维数组，则会触发递归调用  
 
-![image](../images/process.jpg)  
+![image](images/process.jpg)  
 
 ## 特点  
 1.如果被操作对象与目标对象有同名属性，后添加的属性值会覆盖之前的属性值  
