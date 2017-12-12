@@ -64,4 +64,5 @@ extend(targetObject, object1, object2);
 ![image](images/mocha3.jpg)  
 ![image](images/mocha4.jpg)  
 
-## travi CI 持续集成
+## travi CI 持续集成  
+![image](images/travi.jpg)
