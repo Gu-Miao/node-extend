@@ -1,5 +1,4 @@
-# node-extend
-读代码大作业之 node-extend: https://gu-miao.github.io/node-extend/
+# 读代码大作业之[node-extend](https://gu-miao.github.io/node-extend/)
 
 ## 简介  
 node-extend API 是一个简单轻量的第三方库代码程序，作用是基于对象来对目标添加属性以实现对于对象的拓展。
