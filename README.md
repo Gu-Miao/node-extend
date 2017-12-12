@@ -66,3 +66,26 @@ extend(targetObject, object1, object2);
 
 ## travi CI 持续集成  
 ![image](images/travi.jpg)
+
+## 问题清单  
+
+1.解读代码的思路  
+
+```
+    解读代码的最终目的是能够使用代码模块，所以我先翻译了源代码的 readme 和 changelog 明白了基本语法和作者的开发思路和代
+码开发历程，然后对源代码进行了推敲并且自己写了一些 demo 来尝试 extend() 方法，最后完成了 mocha 自动化测试和持续集成。
+```  
+
+2.代码的可读性  
+```
+    代码的可读性很好，关键位置会有注释
+    结构清楚，三大模块，主次分明
+```  
+3.代码程序用到的外部库
+```
+    tape.js
+    mocha
+    jscs.js
+    covert.js
+    eslint
+```
