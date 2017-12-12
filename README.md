@@ -97,7 +97,7 @@ extend(targetObject, object1, object2);
 存储方式显然不方便使用者来操作，或许我们可以将它改变为 "hello" => ["hello"]
     3.在第二条的基础上我们可以考虑拓宽目标对象的可选范围,比如 String, JSON, Symbol 等
 ```
-4.成果
+5.成果
 ```
     1.收获了一个 node.js 的可用 API
     2.强化了自己阅读代码，分析代码以及调试代码的能力
