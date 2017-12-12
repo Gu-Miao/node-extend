@@ -26,7 +26,7 @@ extend(targetObject, object1, object2);
 未定义属性不被复制。但是，从对象原型继承的属性将被复制。  
 警告：不支持传递第一个参数为 false。
 
-### Arguments
+### 参数
 
 * `deep` *布尔类型* （可选参数）
 设置函数是否为深拷贝
