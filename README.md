@@ -1,16 +1,19 @@
 # 读代码大作业之 node-extend
 
 ## 简介  
+### node-extend API
 node-extend API 是一个简单轻量的第三方库代码程序，作用是基于对象来对目标添加属性以实现对于对象的拓展。
+### 代码仓库
+master 分支：源代码文件，demo 文件，test 文件夹，配置文件  
+gh-pages 分支：源代码仓库的 readme.md 和 changlog.md 的翻译文档，大作业展示页
 
-## 安装
+## 用法
+
+**安装：**
 
 ``` sh
 npm install extend
 ```
-
-## 用法
-
 **语法：** extend **(** [`deep`], `target`, `object1`, [`objectN`] **)**
 
 *用一个或多个对象扩展一个对象，返回修改过的对象。*
@@ -33,11 +36,11 @@ extend(targetObject, object1, object2);
 * `deep` *布尔类型* （可选参数）
 设置函数是否为深拷贝
 * `target`	*对象类型*
-要扩展的对象
+目标对象，要扩展的对象
 * `object1`	*对象类型*
-该对象会被合并到第一个对象中
+被操作对象，该对象会被合并到第一个对象中
 * `objectN` *对象类型* （可选参数）
-这些对象会被合并到第一个对象中
+被操作对象，这些对象会被合并到第一个对象中
 
 ## 源代码解析  
 
