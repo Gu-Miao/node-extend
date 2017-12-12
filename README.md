@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-# 读代码大作业之 node-extend
-读代码大作业之 node-extend: https://gu-miao.github.io/node-extend/  
-源代码仓库: [https://github.com/justmoon/node-extend](https://github.com/justmoon/node-extend)  
-本仓库用于讲解 node-extend API 的用法和解读源文件的思路，以及对代码的测试
-=======
 # node-extend
 读代码大作业之 node-extend: https://gu-miao.github.io/node-extend/
 
@@ -64,5 +58,10 @@ extend(targetObject, object1, object2);
 2.当被操作对象为 String 类型时，它会被自动转为数组类型对像来处理，但是 JSON 和 Symbol 类型则不会  
 3.目标对象只支持对象和数组类型
 
+## mocha 自动化测试
+![image](images/mocha1.jpg)  
+![image](images/mocha2.jpg)  
+![image](images/mocha3.jpg)  
+![image](images/mocha4.jpg)  
 
->>>>>>> 5678b143c5e0c29a14f67feddd95c248095e61f9
+## travi CI 持续集成
