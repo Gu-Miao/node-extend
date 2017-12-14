@@ -57,7 +57,7 @@ extend(targetObject, object1, object2);
 
 ## 演示
 
-详见 master 分支的 [demo]([源代码](https://github.com/Gu-Miao/node-extend/source-code/demo) 文件夹
+详见 master 分支的 [demo](https://github.com/Gu-Miao/node-extend/source-code/demo) 文件夹
 ## 特点  
 1.如果被操作对象与目标对象有同名属性，后添加的属性值会覆盖之前的属性值  
 2.当被操作对象为 String 类型时，它会被自动转为数组类型对像来处理，但是 JSON 和 Symbol 类型则不会  
