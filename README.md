@@ -44,7 +44,7 @@ extend(targetObject, object1, object2);
 
 ## 源代码解析  
 
-[源代码](https://github.com/Gu-Miao/node-extend/source-code)主要分为三个模块：isPlainObject() isArray() extend()  
+[源代码](https://github.com/Gu-Miao/node-extend/tree/master/source-code)主要分为三个模块：isPlainObject() isArray() extend()  
 
 ### isArray()
 判断函数：判断是否为数组，返回一个布尔值
